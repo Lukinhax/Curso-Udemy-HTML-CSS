@@ -6,7 +6,6 @@ Este repositório reúne os projetos práticos desenvolvidos ao longo do curso d
 
 - HTML5
 - CSS3
-- JavaScript (básico)
 
 ## 💻 Projetos desenvolvidos
 
@@ -16,8 +15,6 @@ Este repositório reúne os projetos práticos desenvolvidos ao longo do curso d
 | Site Responsivo com Flexbox   | Layout de site adaptável usando Flexbox               |
 | Formulário com Validação      | Formulário com validação básica em JavaScript         |
 | Galeria com Grid CSS          | Galeria de imagens com layout em CSS Grid             |
-
-> 🔗 *Os links acima são apenas exemplos. Você pode personalizar com os nomes reais das pastas e publicar via GitHub Pages.*
 
 ## 🚀 Como usar
 
