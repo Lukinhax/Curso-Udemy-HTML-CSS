@@ -9,12 +9,14 @@ Este repositório reúne os projetos práticos desenvolvidos ao longo do curso d
 
 ## 💻 Projetos desenvolvidos
 
-| Projeto                        | Descrição                                                                  |
-|-------------------------------|--------------------------------------------------------|
-| Página Pessoal                | Estrutura de uma landing page com HTML e CSS puro     |
-| Site Responsivo com Flexbox   | Layout de site adaptável usando Flexbox               |
-| Formulário com Validação      | Formulário com validação básica em JavaScript         |
-| Galeria com Grid CSS          | Galeria de imagens com layout em CSS Grid             |
+| Projeto                       | Descrição                                                                                                         |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Introdução ao HTML e CSS      | Estruturas basicas de HTML e CSS, projeto para conhecer as tecnologias                                            |
+| Modelo para site              | Aprofundamento da linguagem, criação de formularios, tabelas e etc.                                               |
+| Fast Food                     | Projeto que simula o site de uma pizzaria                                                                         |
+| Landing Page                  | Site simulando uma Landing Page, extremamente básica                                                              |
+| Landing Page Venda            | Site baseado na Landing Page anterior, porém com mais elementos                                                   |
+| Projeto Final                 | Site contendo todo o conteúdo visto e desenvolvido ao longo do curso. Tema do site: Venda de curso de programação |
 
 ## 🚀 Como usar
 
