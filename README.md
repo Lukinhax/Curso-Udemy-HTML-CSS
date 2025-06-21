@@ -20,4 +20,4 @@ Este repositório reúne os projetos práticos desenvolvidos ao longo do curso d
 
 ## 🚀 Como usar
 
-Para visualizar qualquer um dos projetos basta rodar o arquivo index, que ele abrirá o projeto no navegador.
+Para visualizar qualquer um dos projetos basta copiar o arquivo para a sua maquina e rodar o arquivo index, que ele abrirá o projeto no seu navegador.
