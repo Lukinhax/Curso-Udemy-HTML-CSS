@@ -14,23 +14,18 @@
 		}
 		header{
 			background: linear-gradient(to right, #0000CD, #00BFFF);
-			color: #fff;
 			font-size: 1.8rem;
 			padding: 1rem;
 			position: fixed;
-			width: 100%;
-			z-index: 1;
+			width: 99%;	
 		}
 		@media(min-width: 300px) and (max-width: 820px) {
 			header{
 				background: linear-gradient(to right, #0000CD, #00BFFF);
-				color: #fff;
 				font-size: 1.6rem;
-				text-align: center;
 				padding: 0.5rem;
 				position: fixed;
-				width: 100%;
-				z-index: 1;
+				width: 99%;
 			}
 		}
 		footer{
@@ -41,6 +36,18 @@
 			text-align: center;
 			text-shadow: 1px 1px 1px #000;
 		}
+
+		.container-links{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.link{
+			color: white;
+			padding: 4px;
+			text-align: right;
+		}
+
 		.conteudo{
 			font-size: 1.6rem;
 			background-color: #fff;
@@ -56,7 +63,8 @@
 			text-align: justify;
 			margin: 0 auto;
 			max-width: 100%;
-			padding-top: 20rem;
+			padding-top: 12rem;
+			padding-left: 100px;
 		}
 		@media(min-width: 300px) and (max-width: 820px) {
 			.conteudo-corpo{
@@ -66,7 +74,7 @@
 				text-align: justify;
 				margin: 0 auto;
 				max-width: 100%;
-				padding-top: 16rem;
+				padding-top: 12rem;
 			}
 		}
 		.conteudo-topo{
@@ -75,7 +83,7 @@
 			padding: 1.5rem;
 			text-align: center;
 			margin: 0 auto;
-			margin-top: 14rem;
+			margin-top: 10rem;
 			max-width: 80%;
 			padding-top: 3rem;
 			border-radius: 20px;
@@ -93,7 +101,6 @@
 				border-radius: 20px;
 			}
 		}
-		
 		/*Aqui iniciamos as fontes do site */
 		
 		h1{
@@ -105,8 +112,9 @@
 			text-align: center;
 		}
 
-		h2#titulo-topo{
-			font-size: 3rem;
+		#titulo-topo{
+			font-size: 3rem;	
+			margin: 0;
 		}
 		h2.titulo-corpo{
 			font-size: 2.5rem;
@@ -156,25 +164,20 @@
 		#logo-topo{
 			width: 10%;
 			height: 7%;
-			margin-left: 15rem;
+			margin: 0;
 		}
 		@media(min-width: 300px) and (max-width: 820px){
 			#logo-topo{
 				width: 15%;
 				height: 8%;
-				margin: 0 auto;
+				margin: 0 ;
 			}
-		}
-		#desenvolvedor{
-			border-radius: 100%;
-			width: 15%;
-			height: 5%;
 		}
 		@media(min-width: 300px) and (max-width: 820px){
 			#desenvolvedor{
 			border-radius: 100%;
-			width: 60%;
-			height: 40%;
+			width: 30%;
+			height: 10%;
 		}
 		}
 		
@@ -208,20 +211,20 @@
 
 		/* config immg-meio*/
 		.img-meio{
-			max-width: 100%;
+			max-width: 70%;
 		}
 		.imagens-produtos-meio{
 			border-radius: 3px;
-			width: 10%;
-			height: 10%;
+			width: 80%;
+			height: auto;
 		}
 		@media(min-width: 300px) and (max-width: 820px){
 			.imagens-produtos-meio{
-			border-radius: 3px;
+			
 			width: 60%;
-			height: 60%;
-		
-
+			
+			}
+		}
 
 		/*controle de grids*/
 
@@ -250,12 +253,12 @@
 		}
 		.grid-corpo{
 			display: grid;
-			grid-template-columns: 380px 1fr;
-			grid-gap: 200px;
-			max-width: 1200px;
-			margin: 0 auto;
-			color: #fff;
-			text-shadow: 1px 1px #000;
+  grid-template-columns: 1fr;  /* Uma coluna que ocupa tudo */
+  gap: 0;
+  max-width: 800px;            /* Ajuste o max-width que preferir */
+  margin: 0 auto;
+  color: #fff;
+  text-shadow: 1px 1px #000;
 		}
 		@media(min-width: 300px) and (max-width: 820px){
 			.grid-corpo{
@@ -275,7 +278,6 @@
 		}
 
 		/*Aqui inicializa a config grid-material-meio*/
-		
 		.grid-material-meio{
 			display: grid;
 			grid-template-columns: 1fr 1fr;
@@ -287,17 +289,21 @@
 			grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 		}	
 		}
-		.grid-material-meio{
+
+		/* aqui inicia a config da grid-produtos-meio*/
+
+		.grid-container-produtos{
 			display: grid;
-			grid-template-columns: 1fr 1fr 1fr ;
-			grid-column-gap: 25px;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 20x;
+			padding: 20px;
 		}
-		@media(min-width: 300px) and (max-width: 820px){
-		.grid-material-meio{
-			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-		}	
+		@media (max-width: 820px) {
+  		.grid-container-produtos {
+    		grid-template-columns: repeat(1, 1fr); /* uma coluna no celular */
+  		}
 		}
+
 		
 		/*aqui inicia a configuração de formulário*/
 		#formulario{
